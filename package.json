@@ -6,6 +6,7 @@
 	"author": "Ryuonato, trainphreak, Lighto27",
 	"dependencies": {
 		"discord.io": "github:woor/discord.io#gateway_v6",
+		"discord.js": "^11.4.2",
 		"winston": "^3.2.0"
 	},
 	"repository": {
