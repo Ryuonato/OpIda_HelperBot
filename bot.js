@@ -13,14 +13,18 @@ client.on('ready', () => {
 	});
 });
 
-client.on('message', function (msg) {
-	//Prevents botception, also known as a bot spamming loop.
-	if(message.author.bot) return;
+client.on('message', msg => {
+	
+	if (msg.content === '!ping') {
+		msg.reply('Pong!');
 
-	if (msg.content.indexOf('!ping') === 0) {
-		bot.sendMessage(msg.channel, 'Pong!');
+		console.log('pong-ed ' + msg.author.username + ' ' + Date.now());
+	}
 
-		console.log('pong-ed ' + msg.author.username);
+	if (msg.content === '!pong') {
+		msg.reply('Ping!');
+
+		console.log('ping-ed ' + msg.author.username + ' ' + Date.now());
 	}
 
 });
