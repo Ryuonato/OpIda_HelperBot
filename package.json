@@ -1,0 +1,17 @@
+{
+	"name": "OpIda_HelperBot",
+	"version": "1.0.0",
+	"description": "Operation Ida Discord Bot, designed to pull stats from google sheets and post 12 hour updates.",
+	"main": "bot.js",
+	"author": "Ryuonato, trainphreak, Lighto27",
+	"dependencies": {
+		"discord.io": "github:woor/discord.io#gateway_v6",
+		"winston": "^3.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"license": "UNLICENSED",
+	"private": true
+}
