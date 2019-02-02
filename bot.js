@@ -30,4 +30,4 @@ client.on('message', msg => {
 
 });
 
-client.login(auth.token);
+client.login(auth.discordToken);
