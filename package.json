@@ -6,6 +6,7 @@
 	"author": "Ryuonato, trainphreak, Lighto27",
 	"dependencies": {
 		"discord.js": "^11.4.2",
+		"googleapi": "^1.0.2"
 	},
 	"repository": {
 		"type": "git",
